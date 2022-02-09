@@ -35,6 +35,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.vds.allow_hwc=0
 
+# https://github.com/mordiford/device_xiaomi_clover/commit/124fb9a0028c04fb9a26685ff412aaf1ed503b6c
+# Lockscreen rotation (requested by ibooth2004@XDA (https://forum.xda-developers.com/showpost.php?p=82157253&postcount=545)
+PRODUCT_PROPERTY_OVERRIDES += \
+    lockscreen.rot_override=true
+
 # Single SIM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=ssss

@@ -36,10 +36,10 @@ $(call inherit-product, device/xiaomi/clover/device.mk)
 
 # Build Description
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="clover-user 8.1.0 OPM1.171019.019 V10.2.1.0.ODJCNXM release-keys"
+    PRIVATE_BUILD_DESC="clover-user 8.1.0 OPM1.171019.019 V10.3.2.0.ODJCNXM release-keys"
 
 # Build Fingerprint
-BUILD_FINGERPRINT := "Xiaomi/clover/clover:8.1.0/OPM1.171019.019/V10.2.1.0.ODJCNXM:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/clover/clover:8.1.0/OPM1.171019.019/V10.3.2.0.ODJCNXM:user/release-keys"
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
